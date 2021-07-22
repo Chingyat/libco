@@ -115,7 +115,7 @@ coctx_swap:
       ldp x2, x3, [x1, #176]
       ldp x4, x5, [x1, #192]
       ldp x6, x7, [x1, #208]
-      mov lr, x17
+      mov x30, x17
       ldp x0, x1, [x1, #224]
   ret
 
