@@ -30,7 +30,7 @@ struct coctx_t
 {
 #if defined(__i386__)
 	void *regs[ 8 ];
-#elif defined(__X86_64__)
+#elif defined(__x86_64__)
 	void *regs[ 14 ];
 #elif defined(__aarch64__)
 	void *regs[ 30 ];
